@@ -34,9 +34,7 @@ function App() {
           <Route path='/forgotpassword' element={<ForgotPassword />} />
           <Route path='/createlisting' element={<CreateListing />} />
           <Route path='/editlisting/:listingId' element={<EditListing />} />
-
-          <Route path='/category/:categoryName/listingId' element={<Listing />} />
-
+          <Route path='/category/:categoryName/:listingId' element={<Listing />} />
           <Route path='/contact/:landlordId' element={<Contact />} />
           <Route path='/favorites' element={<Favorites />} />
         </Routes>

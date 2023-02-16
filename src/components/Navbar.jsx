@@ -43,7 +43,7 @@ function Navbar() {
             </p>
           </li>
 
-          <li className='navbarListItem' onClick={() => navigate('/')}>
+          <li className='navbarListItem' onClick={() => navigate('/offers')}>
             <MdOutlineNavigation
               fill={pathMatchRoute('/offers') ? '#2c2c2c' : '#8f8f8f'}
               width='36px'
@@ -59,10 +59,8 @@ function Navbar() {
           </li>
           <li className='navbarListItem' onClick={() => navigate('/profile')}>
             <FaRegUser
-              className='h-8 w-8'
+              className='h-4 w-4'
               fill={pathMatchRoute('/profile') ? '#2c2c2c' : '#8f8f8f'}
-              width='36px'
-              height='36px'
             />
             <p
               className={

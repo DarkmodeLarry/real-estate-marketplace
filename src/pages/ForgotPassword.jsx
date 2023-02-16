@@ -21,8 +21,8 @@ function ForgotPassword() {
     }
   }
   return (
-    <div className='min-h-screen max-w-full flex flex-col bg-sky-100'>
-      <div className='max-w-lg flex flex-col justify-center items-center border-2 rounded-lg shadow-2xl bg-green-600 p-4 mx-6 my-32'>
+    <div className='min-h-screen max-w-full flex flex-col'>
+      <div className='max-w-lg flex flex-col justify-center items-center border-2 rounded-lg  p-4 mx-6 my-32'>
         <header className='w-full flex items-center text-2xl font-bold px-4 pt-4'>
           <h1 className=''>Forgot Password</h1>
         </header>
@@ -45,7 +45,7 @@ function ForgotPassword() {
               </button>
               <span>or </span>
               <div>
-                <Link className='bg-sky-100 rounded-lg px-2 py-1 text-sm' to='/signin'>
+                <Link className='px-2 py-1 text-sm' to='/signin'>
                   Sign In Instead
                 </Link>
               </div>
